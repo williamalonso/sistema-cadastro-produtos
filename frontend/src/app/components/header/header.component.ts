@@ -12,4 +12,13 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  myName: string = '';
+
+  onChangeHome() {
+    this.myName = 'Home';
+  }
+  onChangeList() {
+    this.myName = 'Lista'
+  }
+
 }

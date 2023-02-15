@@ -1,8 +1,8 @@
 <mat-drawer-container class="example-container">
     <mat-drawer mode="side" opened class="example-sidenav">
         <mat-list role="list">
-            <mat-list-item role="listitem"><mat-icon>home</mat-icon> Início</mat-list-item>
-            <mat-list-item role="listitem"><mat-icon>list</mat-icon> Lista</mat-list-item>
+            <mat-list-item role="listitem" (click)="home()"><mat-icon>home</mat-icon> Início</mat-list-item>
+            <mat-list-item role="listitem" (click)="list()"><mat-icon>list</mat-icon> Lista</mat-list-item>
         </mat-list>
     </mat-drawer>
     <mat-drawer-content>Main content</mat-drawer-content>

@@ -8,6 +8,10 @@
         <a>
             <mat-icon>home</mat-icon>
         </a>
-        <span>Sistema de Cadastro de Produtos</span>
+        <span>Sistema de Cadastro de Produtos - </span>
+        &nbsp;
+        <span>{{ myName }}</span>
     </span>
 </mat-toolbar>
+
+<app-sidenav (changeHome)="onChangeHome()" (changeList)="onChangeList()"></app-sidenav>
