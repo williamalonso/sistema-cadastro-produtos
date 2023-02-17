@@ -14,6 +14,7 @@ import { HomeComponent } from './views/home/home.component';
 import {MatCardModule} from '@angular/material/card';
 import { ProductListComponent } from './views/product-list/product-list.component';
 import { AppRoutingModule } from './app-routing.module';
+import { ProductCreateComponent } from './components/product/product-create/product-create.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { AppRoutingModule } from './app-routing.module';
     FooterComponent,
     SidenavComponent,
     HomeComponent,
-    ProductListComponent
+    ProductListComponent,
+    ProductCreateComponent
   ],
   imports: [
     BrowserModule,
