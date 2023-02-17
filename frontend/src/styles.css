@@ -9,3 +9,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; display: fl
 .v-middle {
     vertical-align: middle;
 }
+
+a, a:hover {
+    text-decoration: none;
+}

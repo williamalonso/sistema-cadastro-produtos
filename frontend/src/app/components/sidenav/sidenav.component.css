@@ -23,3 +23,6 @@ mat-icon {
     padding: 16px;
     background-color: #fff;
 }
+.link-option:hover {
+    color: #fff;
+}
