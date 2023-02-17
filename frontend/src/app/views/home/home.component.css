@@ -1,0 +1,9 @@
+.example-card {
+    max-width: 100%;
+}
+.title {
+    font-size: 2rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+  
