@@ -24,6 +24,11 @@
       "name": "Máquina de Lavar",
       "price": "2500",
       "id": 7
+    },
+    {
+      "name": "William teste observable",
+      "price": 2500,
+      "id": 8
     }
   ]
 }
