@@ -1,6 +1,27 @@
-<button mat-stroked-button (click)="deleteProduct()" aria-label="Show an example snack-bar">
-    Excluir
-</button>
-<button mat-stroked-button (click)="createProduct()" aria-label="Show an example snack-bar" color="primary">
-    Salvar
-</button>
+<mat-card>
+
+    <mat-card-header>
+        <mat-card-title>Novo Produto</mat-card-title>
+    </mat-card-header>
+
+    <form class="example-form">
+        <mat-form-field class="example-full-width">
+            <mat-label>Nome</mat-label>
+            <input type="text" name="name" matInput placeholder="Digite seu nome" [(ngModel)]="product.name">
+        </mat-form-field>
+        <!-- <div *ngIf=" product.name != '' ">
+            O nome é {{ product.name }}
+        </div> -->
+        
+        <mat-form-field class="example-full-width">
+            <mat-label>Preço (R$)</mat-label>
+            <input type="number" name="price" matInput placeholder="Digite o preço" [(ngModel)]="product.price">
+        </mat-form-field>
+    </form>
+
+    <mat-card-actions>
+        <button mat-button (click)="deleteProduct()">Excluir</button>
+        <button mat-button (click)="createProduct()" color="primary">Salvar</button>
+    </mat-card-actions>
+    
+</mat-card>

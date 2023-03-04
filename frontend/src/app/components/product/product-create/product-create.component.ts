@@ -11,8 +11,8 @@ import { Product } from '../../../interfaces/Product';
 export class ProductCreateComponent implements OnInit {
 
   product: Product = {
-    name: 'William teste observable',
-    price: 2500
+    name: '',
+    price: 0
   }
 
   constructor(

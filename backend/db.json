@@ -29,6 +29,16 @@
       "name": "William teste observable",
       "price": 2500,
       "id": 8
+    },
+    {
+      "name": "",
+      "price": 0,
+      "id": 9
+    },
+    {
+      "name": "William Teste Form",
+      "price": 7,
+      "id": 10
     }
   ]
 }
