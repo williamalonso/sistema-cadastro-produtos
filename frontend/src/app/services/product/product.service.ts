@@ -27,7 +27,7 @@ export class ProductService {
   }
 
   /*
-    Essa função insere dado no backend.
+    A função abaixo insere dado no backend.
     Ela recebe como parâmetro uma variável do tipo "Produto" que declaramos na interface
   */
   create(product: Product): Observable<Product> {
