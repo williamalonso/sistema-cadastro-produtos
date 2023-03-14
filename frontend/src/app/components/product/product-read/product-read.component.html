@@ -26,9 +26,9 @@
             <mat-icon>edit</mat-icon>
           </a>
           &nbsp;
-          <a routerLink="" style="color: red">
-            <mat-icon>delete</mat-icon>
-        </a>
+          <a routerLink="product/delete/{{ row.id }}" style="color: red">
+            <mat-icon (click)="delete( row.id )">delete</mat-icon>
+          </a>
         </td>
       </ng-container>
   
