@@ -36,7 +36,7 @@ export class ProductReadComponent implements OnInit {
 
   delete(id: any) {
       this.productService.delete(id).subscribe(); // vou esperar o registro ser excluído pelo Banco
-      this.productService.showMessage("Momento excluído com sucesso!"); // exibe mensagem de sucesso
+      this.productService.showMessage("Produto excluído com sucesso!"); // exibe mensagem de sucesso
       this.router.navigate(['/list']); // redireciona para home
   }
 
