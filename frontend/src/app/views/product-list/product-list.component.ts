@@ -12,7 +12,7 @@ export class ProductListComponent implements OnInit {
   // Aqui no construtor estamos instanciando o 'router', para podermos usar redirecionamento de rota na função "navigateToProductCreate" abaixo
   constructor(private router: Router, private headerService: HeaderService) {
     headerService.headerData = {
-      title: 'Cadastro de Produtos',
+      title: 'Lista',
       icon: 'list',
       routeUrl: '/list',
     };
